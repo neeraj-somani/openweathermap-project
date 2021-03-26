@@ -1,8 +1,6 @@
-# openweathermap-project
-openweathermap-project
+## openweathermap-project
 
-## HPAC
-### Hot-path analytic container for IoT scenarios
+### Weather analytics Dashboard project
 
   ![Capture](https://user-images.githubusercontent.com/27162948/59267646-0a044a80-8c4b-11e9-84e9-37a52e0cb9b4.PNG)
 
