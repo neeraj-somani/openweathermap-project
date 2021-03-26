@@ -17,7 +17,7 @@ For the optimal performance of the system the container should run in a minimum 
 * Node-red           0.20.5
 
 ![Architecture](photos/weatherappArchitecture.jpeg?raw=true "Architecture")
-(https://user-images.githubusercontent.com/27162948/59157187-9590a680-8aa6-11e9-865c-3e65b5b69416.JPG)
+
   
 This is the container architecture and the different layers of abstraction for analytics.
 
