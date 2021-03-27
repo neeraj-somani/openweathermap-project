@@ -1,0 +1,3 @@
+influxdb-prod-2h5s: 172.17.0.2:8086
+nodered-prod-vksw: 172.17.0.3:1880
+grafana-prod-xc0r: 172.17.0.4:3000
