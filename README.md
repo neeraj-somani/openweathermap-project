@@ -1,20 +1,19 @@
-## openweathermap-project
+## Openweathermap-project
 
 ### Weather analytics Dashboard project
 
-  ![Capture](https://user-images.githubusercontent.com/27162948/59267646-0a044a80-8c4b-11e9-84e9-37a52e0cb9b4.PNG)
+  ![Dashboard](photos/Grafana_Dashboard.png?raw=true "Dashboard")
 
-For the optimal performance of the system the container should run in a minimum of 2-core x86 architecture with at least 2 GB of RAM and a SSD (solid state drive, influxDB requirement). The idea is a solution for dashboarding analytics and real-time sensor data in IoT scenarios. The difference of this container respect with the rest is the addition of node-red. This last layer is used for ingestion (ETL) of the IoT data into InfluxDB for later analysis (OLAP).
+It's a weather monitoring system. This is a simple Data Pipeline (ETL) project that collects (E-extract) weather data from OpenWeatherMap using there RestAPI and make necessary Data Transformations (T) and Load (L) it into InfluxDB. Is it really worth just dump some data to a DB and not showing a meaningful purpose of it. Thats where Grafana comes into picture. We are going to use Grafana to build an insightful dashboard. Below picture depicts the same, this is the container architecture and the different layers of abstraction for analytics.
 
-## Versions used for the container
+## Services and tools used for the project
 
-* Docker Image:      2.3.0
-* Ubuntu:            18.04
-* InfluxDB:          1.7.3
-* Telegraf (StatsD): 1.9.4-1
-* Grafana:           6.0.0
-* Cronograf          1.7.8
-* Node-red           0.20.5
+* Terraform
+* AWS Cloud9
+* Docker Images      
+* InfluxDB         
+* Grafana          
+* Node-red           
 
 ![Architecture](photos/weatherappArchitecture.jpeg?raw=true "Architecture")
 
